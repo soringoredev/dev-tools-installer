@@ -1,5 +1,10 @@
 # Dev Tools Installer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Quick bash script to set up essential tools for developers on a fresh Ubuntu system.
+
+
 Quick bash script to set up essential tools for developers on a fresh Ubuntu system.
 
 ## What it installs
@@ -17,18 +22,3 @@ chmod +x install-dev-tools.sh
 ./install-dev-tools.sh
 
 
-
----
-
-### 📄 `LICENSE` (MIT)
-
-```text
-MIT License
-
-Copyright (c) 2025 Sorin
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction...
-
-(license continues unchanged as standard MIT)
