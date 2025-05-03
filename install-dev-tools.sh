@@ -1,3 +1,5 @@
 # install-dev-tools.sh
 #!/bin/bash
-# Script pentru instalarea uneltelor de bază pentru dezvoltare
+
+echo " instalarea uneltelor "
+sudo apt update && sudo apt upgrade -y
