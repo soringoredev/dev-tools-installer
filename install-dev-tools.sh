@@ -16,3 +16,10 @@ read -p "📘 Vrei să instalezi Visual Studio Code? (y/n): " install_vscode
 if [[ "$install_vscode" == "y" ]]; then
     echo "🔧 Instalare VS Code..."
 fi
+
+read -p "🟢 Vrei să instalezi Node.js + npm? (y/n): " install_node
+if [[ "$install_node" == "y" ]]; then
+    echo "📦 Instalare Node.js LTS..."
+fi
+
+echo "Instalare completă!"
